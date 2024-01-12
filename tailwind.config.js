@@ -9,7 +9,6 @@ export default {
         secondary: '#0039ac',
         ash: '#808080',
         box: '#7c7c7c',
-        lines: '#3f7fff',
       },
       fontFamily: {
         serif: ['Lora', 'Arial', 'sans-serif'],
