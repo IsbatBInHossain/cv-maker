@@ -13,5 +13,5 @@ export const Headline = ({ title, classes }) => {
 
 Headline.propTypes = {
   title: PropTypes.string.isRequired,
-  classes: PropTypes.string.isRequired,
+  classes: PropTypes.string,
 }

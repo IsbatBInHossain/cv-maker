@@ -19,10 +19,14 @@ const ProjectCard = ({ project }) => {
           {' Code'}
         </a>
       </div>
-      <ul className=' list-disc text-sm text-ash flex flex-col gap-2 mt-3'>
+      <ul className=' text-sm text-ash flex flex-col gap-2 mt-3'>
         <li>
           <span className='font-bold'>Features:</span>{' '}
-          <p className='inline'>{project.desc}</p>
+          <ul className='list-disc ml-8'>
+            {project.features?.map((feature, idx) => (
+              <li key={idx}>{feature}</li>
+            ))}
+          </ul>
         </li>
 
         <li>
@@ -38,7 +42,7 @@ ProjectCard.propTypes = {
   project: PropTypes.shape({
     name: PropTypes.string.isRequired,
     desc: PropTypes.string,
-    // features: PropTypes.arrayOf(PropTypes.string).isRequired,
+    features: PropTypes.arrayOf(PropTypes.string),
     'tech-stack': PropTypes.arrayOf(PropTypes.string).isRequired,
     links: PropTypes.shape({
       website: PropTypes.string.isRequired,

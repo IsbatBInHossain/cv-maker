@@ -7,7 +7,7 @@ export default {
         background: '#e2e2e2',
         primary: '#001f5a',
         secondary: '#0039ac',
-        ash: '#808080',
+        ash: '#505050',
         box: '#7c7c7c',
       },
       fontFamily: {

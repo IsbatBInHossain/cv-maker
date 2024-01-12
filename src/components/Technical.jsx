@@ -24,6 +24,12 @@ export const Technical = () => {
           <Skill name={tool} key={tool} />
         ))}
       </div>
+      <h4 className=' font-bold mt-2'>Others</h4>
+      <div className=' flex flex-wrap mt-2 gap-1'>
+        {skills.others.map(other => (
+          <Skill name={other} key={other} />
+        ))}
+      </div>
     </div>
   )
 }

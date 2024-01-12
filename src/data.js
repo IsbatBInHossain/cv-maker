@@ -8,9 +8,9 @@ export const skills = {
     'MondoDB',
     'MySQL',
     'Tailwind CSS',
-    'SAAS',
+    'SCSS',
   ],
-  tools: ['Git', 'GitHub', 'Vercel'],
+  tools: ['Git', 'GitHub', 'Vercel', 'Redux'],
   others: ['OOP', 'Problem Solving', 'RestFul API'],
 }
 
@@ -18,6 +18,11 @@ export const projects = [
   {
     name: 'Threads',
     desc: 'Thread is a dynamic web application providing a Twitter-like experience. It utilizes real-time updates, Clerk authentication, and efficient data handling for a smooth and interactive user experience. Features include creating and sharing threads, user authentication, full responsiveness, personalized user profiles, and community creation/joining.',
+    features: [
+      'Developed a dynamic web application resembling a Twitter-like experience using Next.js 13, MongoDB, and Tailwind CSS.',
+      'Implemented real-time updates, Clerk authentication, and efficient data handling for a seamless user experience.',
+      'Features include thread creation, user authentication, full responsiveness, and community creation/joining.',
+    ],
     'tech-stack': [
       'NextJS 13',
       'MongoDB',
@@ -35,6 +40,10 @@ export const projects = [
   {
     name: 'Warehouse Wizard',
     desc: 'Warehouse Wizard is an inventory management web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to manage inventory by adding, deleting, and editing products. Features include user authentication, intuitive interface, personalized user profiles, and Cloudinary integration for product and user photos.',
+    features: [
+      'Built an inventory management web application utilizing the MERN stack (MongoDB, Express.js, React.js, Node.js).',
+      'Implemented user authentication, intuitive interface, and Cloudinary integration for managing product and user photos.',
+    ],
     'tech-stack': [
       'React',
       'Redux',
@@ -52,6 +61,11 @@ export const projects = [
   {
     name: 'Tech Haven',
     desc: 'Tech Haven is an e-commerce site powered by Payload CMS. It offers user-friendly features, including secure authentication, a streamlined admin panel for product management, secure payments through Stripe, and efficient pagination and search functionality.',
+    features: [
+      'Developed an e-commerce site powered by Payload CMS with a streamlined admin panel',
+      'Ensured secure authentication, and efficient payment processing through Stripe',
+      'Added efficient pagination and search functionality.',
+    ],
     'tech-stack': ['Payload CMS', 'MongoDB', 'SCSS', 'Stripe'],
     links: {
       website: 'https://e-commerce-site-with-payload.payloadcms.app/',
