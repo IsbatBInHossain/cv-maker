@@ -4,8 +4,8 @@ import { FaLink, FaCode } from 'react-icons/fa'
 const ProjectCard = ({ project }) => {
   return (
     <div className=' mb-3'>
-      <h3 className=' text-xl font-semibold'>{project.name}</h3>
-      <div className='flex items-center text-secondary'>
+      <h3 className=' text-xs font-semibold'>{project.name}</h3>
+      <div className='flex items-center text-secondary text-[10px]'>
         <a
           href={project.links.website}
           className=' font-bold flex items-center'
@@ -23,9 +23,10 @@ const ProjectCard = ({ project }) => {
         <li>
           <span className='font-bold'>Features:</span>{' '}
           <ul className='list-disc ml-8'>
-            {project.features?.map((feature, idx) => (
+            {/* {project.features?.map((feature, idx) => (
               <li key={idx}>{feature}</li>
-            ))}
+            ))} */}
+            {project.desc}
           </ul>
         </li>
 

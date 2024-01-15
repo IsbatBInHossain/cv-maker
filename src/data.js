@@ -8,6 +8,7 @@ export const skills = {
     'MondoDB',
     'MySQL',
     'Tailwind CSS',
+    'Vus.js',
     'SCSS',
   ],
   tools: ['Git', 'GitHub', 'Vercel', 'Redux'],

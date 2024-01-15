@@ -7,7 +7,7 @@ export const MainBody = () => {
     <div className='col-span-2'>
       <Headline title='Career Objectives' />
 
-      <p className='italic tracking-tight mt-2'>
+      <p className='italic tracking-tight mt-2 text-[12px]'>
         Results-driven{' '}
         <span className='border-b-2 border-blue-500'>
           Full Stack Web Developer

@@ -9,11 +9,11 @@ export const Education = () => {
       <Headline title='Education' classes='mt-4' />
       {education.map(edu => (
         <div className='mt-2' key={edu.degree}>
-          <h3 className=' font-semibold'>{edu.degree}</h3>
-          <h4 className=' text-secondary font-bold text-xs'>
+          <h3 className=' font-semibold text-xs'>{edu.degree}</h3>
+          <h4 className=' text-secondary font-bold text-[10px]'>
             {edu.institution}
           </h4>
-          <div className=' flex justify-between text-xs text-ash mt-2'>
+          <div className=' flex justify-between text-[9px] text-ash mt-2'>
             <p className=' flex gap-1 items-center'>
               <FaCalendarAlt /> <span className='inline'>{edu.duration}</span>
             </p>

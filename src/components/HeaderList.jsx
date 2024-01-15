@@ -9,7 +9,7 @@ import {
 
 export const HeaderList = () => {
   return (
-    <ul className='flex items-center gap-3 flex-wrap text-[10px]'>
+    <ul className='grid grid-cols-3 gap-x-4 grid-rows-2 text-[9px]'>
       <li className='text-ash flex items-center gap-1 pt-3'>
         <FaEnvelope className='text-secondary' />{' '}
         <span>isbatbinhossain@gmail.com</span>
@@ -32,7 +32,9 @@ export const HeaderList = () => {
       </li>
       <li className='text-ash flex items-center gap-1'>
         <FaGlobe className='text-secondary' />{' '}
-        <a href='https://isbat-bin-hossain.vercel.app/'>Portfolio</a>
+        <a href='https://isbat-bin-hossain.vercel.app/'>
+          isbat-bin-hossain.vercel.app/
+        </a>
       </li>
     </ul>
   )
