@@ -1,18 +1,36 @@
+export const personalInfo = {
+  name: 'Isbat Bin Hossain',
+  email: 'isbatbinhossain@gmail.com',
+  phone: '+8801815-423827',
+  location: 'Uttara, Dhaka',
+  linkedin: 'isbat-bin-hossain-94313b270',
+  github: 'IsbatBInHossain',
+  portfolio: 'isbat-bin-hossain.vercel.app/',
+}
+
+export const jobDetails = {
+  position: 'Frontend Web Developer',
+  'career-objective':
+    "I am a results-driven Frontend Developer with a passion for creating seamless and visually appealing web experiences. Eager to join Metricalo in a challenging role to leverage my skills and contribute to the company's growth in developing pixel-perfect and responsive websites. Proficient in front-end technologies such as HTML, CSS, SCSS, Tailwind, and JavaScript, I bring a strong foundation in full-stack web development. ",
+}
+
 export const skills = {
-  languages: ['JavaScript', 'Python', 'HTML', 'CSS', 'C++'],
+  languages: ['JavaScript', 'Python', 'HTML', 'CSS'],
   technologies: [
     'React',
-    'Node.js',
     'Next.js',
-    'Express.js',
-    'MondoDB',
-    'MySQL',
     'Tailwind CSS',
     'Vus.js',
     'SCSS',
+    'Redux',
+    'RestFul API',
+    // 'Express.js',
+    // 'Node.js',
+    // 'MondoDB',
+    // 'MySQL',
   ],
-  tools: ['Git', 'GitHub', 'Vercel', 'Redux'],
-  others: ['OOP', 'Problem Solving', 'RestFul API'],
+  tools: ['Git', 'GitHub', 'Vercel', 'Figma'],
+  // others: ['OOP', 'Problem Solving', 'RestFul API'],
 }
 
 export const projects = [
@@ -25,7 +43,7 @@ export const projects = [
       'Features include thread creation, user authentication, full responsiveness, and community creation/joining.',
     ],
     'tech-stack': [
-      'NextJS 13',
+      'Next.js',
       'MongoDB',
       'TailwindCSS',
       'Clerk',
@@ -55,6 +73,26 @@ export const projects = [
       'Cloudinary',
     ],
     links: {
+      website: 'https://prompt-central.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/prompt-central',
+    },
+  },
+  {
+    name: 'Prompt Central',
+    desc: "Prompt Central is an AI prompt sharing platform built with Next.js and Tailwind CSS. This platform allows you to explore and discover a wide range of AI prompts contributed by the community. Whether you're a developer, AI enthusiast, or someone looking for inspiration, Prompt Central has got you covered.",
+    features: [
+      'Facilitated prompt discovery through username or specific tags for an enhanced user experience.',
+      'Encouraged community growth by allowing users to share prompts seamlessly.',
+      'Implemented a user-friendly authentication process using Google OAuth 2.0.',
+    ],
+    'tech-stack': [
+      'React',
+      'Next.js',
+      'MongoDB',
+      'TailwindCSS',
+      'Google Outh 2.0',
+    ],
+    links: {
       website: 'https://warehouse-wizard.vercel.app/',
       code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
     },
@@ -67,7 +105,7 @@ export const projects = [
       'Ensured secure authentication, and efficient payment processing through Stripe',
       'Added efficient pagination and search functionality.',
     ],
-    'tech-stack': ['Payload CMS', 'MongoDB', 'SCSS', 'Stripe'],
+    'tech-stack': ['Payload CMS', 'Next.js', 'MongoDB', 'SCSS', 'Stripe'],
     links: {
       website: 'https://e-commerce-site-with-payload.payloadcms.app/',
       code: 'https://github.com/IsbatBInHossain/Tech-Haven',

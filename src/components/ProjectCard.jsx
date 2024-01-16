@@ -19,14 +19,14 @@ const ProjectCard = ({ project }) => {
           {' Code'}
         </a>
       </div>
-      <ul className=' text-sm text-ash flex flex-col gap-2 mt-3'>
+      <ul className=' text-[10px] text-ash flex flex-col gap-2 mt-3'>
         <li>
           <span className='font-bold'>Features:</span>{' '}
           <ul className='list-disc ml-8'>
-            {/* {project.features?.map((feature, idx) => (
+            {project.features?.map((feature, idx) => (
               <li key={idx}>{feature}</li>
-            ))} */}
-            {project.desc}
+            ))}
+            {/* {project.desc} */}
           </ul>
         </li>
 
