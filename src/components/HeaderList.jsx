@@ -23,15 +23,33 @@ export const HeaderList = () => {
       </li>
       <li className='text-ash flex items-center gap-1'>
         <FaLinkedin className='text-secondary' />{' '}
-        <a href={`https://www.linkedin.com/in/${linkedin}`}>{linkedin}</a>
+        <a
+          href={`https://www.linkedin.com/in/${linkedin}`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          {linkedin}
+        </a>
       </li>
       <li className='text-ash flex items-center gap-1'>
         <FaGithub className='text-secondary' />{' '}
-        <a href={`https://github.com/${github}`}>{github}</a>
+        <a
+          href={`https://github.com/${github}`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          {github}
+        </a>
       </li>
       <li className='text-ash flex items-center gap-1'>
         <FaGlobe className='text-secondary' />{' '}
-        <a href={`https://${portfolio}`}>Portfolio</a>
+        <a
+          href={`https://${portfolio}`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Portfolio
+        </a>
       </li>
     </ul>
   )

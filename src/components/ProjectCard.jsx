@@ -23,16 +23,22 @@ const ProjectCard = ({ project }) => {
         <li>
           <span className='font-bold'>Features:</span>{' '}
           <ul className='list-disc ml-8'>
-            {/* {project.features?.map((feature, idx) => (
-              <li key={idx}>{feature}</li>
-            ))} */}
-            {project.desc}
+            {project.features?.map((feature, idx) => (
+              <li key={idx} className=' text-[11px]'>
+                {feature}
+              </li>
+            ))}
+            {/* {project.desc} */}
           </ul>
         </li>
 
         <li>
-          <span className='font-bold'>Tech Stack:</span>{' '}
-          {project['tech-stack'].map(tech => `${tech}, `)}
+          <span className='font-bold text-[11px]'>Tech Stack:</span>{' '}
+          {project['tech-stack'].map((tech, index, array) => (
+            <span className='text-[11px]' key={tech}>
+              {index === array.length - 1 ? tech : tech + ', '}
+            </span>
+          ))}
         </li>
       </ul>
     </div>

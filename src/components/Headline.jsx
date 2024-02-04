@@ -6,7 +6,7 @@ export const Headline = ({ title, classes }) => {
       <h2 className=' text-primary text-[17px] uppercase font-bold font-serif'>
         {title}
       </h2>
-      <div className=' border border-blue-500 mt-0.5'></div>
+      <div className=' border-b-2 border-blue-500 mt-0.5'></div>
     </div>
   )
 }

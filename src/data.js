@@ -15,7 +15,14 @@ export const jobInfo = {
 }
 
 export const skills = {
-  languages: ['JavaScript', 'Python', 'HTML', 'CSS', 'C++'],
+  languages: [
+    'JavaScript',
+    'TypeScript',
+    'HTML',
+    'CSS',
+    'Python',
+    // 'C++'
+  ],
   technologies: [
     'React',
     'Node.js',
@@ -24,11 +31,12 @@ export const skills = {
     'MondoDB',
     'MySQL',
     'Tailwind CSS',
-    'Vus.js',
+    // 'Vue.js',
+    'RestFul API',
     'SCSS',
   ],
   tools: ['Git', 'GitHub', 'Vercel', 'Redux'],
-  others: ['OOP', 'Problem Solving', 'RestFul API'],
+  // others: ['OOP', 'Problem Solving', 'RestFul API'],
 }
 
 export const projects = [
@@ -41,7 +49,7 @@ export const projects = [
       'Features include thread creation, user authentication, full responsiveness, and community creation/joining.',
     ],
     'tech-stack': [
-      'NextJS 13',
+      'Next.js',
       'MongoDB',
       'TailwindCSS',
       'Clerk',
@@ -109,5 +117,18 @@ export const education = [
     institution: 'Khagrachari Cantonment Public School and College',
     duration: '2011',
     location: 'Khagrachari',
+  },
+]
+
+export const courses = [
+  {
+    title: 'The Complete 2023 Web Development Bootcamp by Dr. Angela Yu',
+    provider: 'Udemy',
+    link: 'https://www.udemy.com/certificate/UC-8ebeba26-bf0d-42f9-9663-12195d7fe629/',
+  },
+  {
+    title: 'Software Engineer Certificate',
+    provider: 'HacakerRank',
+    link: 'https://www.hackerrank.com/certificates/96b4d9b9e147',
   },
 ]
