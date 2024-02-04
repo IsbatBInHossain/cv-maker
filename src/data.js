@@ -1,3 +1,19 @@
+export const personalInfo = {
+  name: 'Isbat Bin Hossain',
+  email: 'isbatbinhossain@gmail.com',
+  phone: '+880-1815423827',
+  location: 'Banasree, Dhaka',
+  github: 'IsbatBInHossain',
+  linkedin: 'isbat-bin-hossain-94313b270/',
+  portfolio: 'isbats-world.vercel.app/',
+}
+
+export const jobInfo = {
+  title: 'Full Stack Web Developer',
+  'career-objective':
+    ' Results-driven Full Stack Web Developer with a passion for creating dynamic and user-centric applications. Seeking opportunities to leverage strong technical skills and creative problem-solving abilities in a challenging environment.',
+}
+
 export const skills = {
   languages: ['JavaScript', 'Python', 'HTML', 'CSS', 'C++'],
   technologies: [

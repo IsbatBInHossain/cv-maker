@@ -1,3 +1,4 @@
+import { jobInfo, personalInfo } from '../data'
 import { HeaderList } from './HeaderList'
 
 export const CVHeader = () => {
@@ -12,10 +13,10 @@ export const CVHeader = () => {
       </div>
       <div className='flex flex-col ml-[200px]'>
         <h2 className='text-[25px] font-serif text-primary font-bold uppercase'>
-          Isbat Bin Hossain
+          {personalInfo.name}
         </h2>
         <p className='font-bold capitalize text-primary text-[17px]'>
-          Full Stack Web Developer
+          {jobInfo.title}
         </p>
         <HeaderList />
       </div>
