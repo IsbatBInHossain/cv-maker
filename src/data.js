@@ -9,9 +9,9 @@ export const personalInfo = {
 }
 
 export const jobInfo = {
-  title: 'Full Stack Web Developer',
+  title: 'Software Engineer',
   'career-objective':
-    ' Results-driven Full Stack Web Developer with a passion for creating dynamic and user-centric applications. Seeking opportunities to leverage strong technical skills and creative problem-solving abilities in a challenging environment.',
+    'Eager to leverage my expertise in Next.js development and passion for crafting innovative web solutions as a Junior Software Engineer at BemGroup. With over a year of professional experience in React.js/Next.js, along with proficiency in JavaScript, HTML5, and CSS3, I am prepared to contribute to the success of dynamic projects while continuously expanding my skill set. Excited to join a collaborative team environment and make meaningful contributions to impactful projects in the realm of SaaS.',
 }
 
 export const skills = {
@@ -23,20 +23,25 @@ export const skills = {
     'Python',
     // 'C++'
   ],
-  technologies: [
-    'React',
-    'Node.js',
-    'Next.js',
-    'Express.js',
-    'MondoDB',
-    'MySQL',
-    'Tailwind CSS',
-    // 'Vue.js',
-    'RestFul API',
-    'SCSS',
-  ],
-  tools: ['Git', 'GitHub', 'Vercel', 'Redux'],
-  // others: ['OOP', 'Problem Solving', 'RestFul API'],
+  frontend: ['React', 'Tailwind CSS', 'SCSS', 'Redux'],
+  backend: ['Node.js', 'Next.js', 'Express.js', 'RestFul API'],
+  database: ['MondoDB', 'MySQL'],
+
+  // technologies: [
+  //   'React',
+  //   'Node.js',
+  //   'Next.js',
+  //   'Express.js',
+  //   'MondoDB',
+  //   'MySQL',
+  //   'Tailwind CSS',
+  //   // 'Vue.js',
+  //   'RestFul API',
+  //   // 'SCSS',
+  //   'Redux',
+  // ],
+  tools: ['Git', 'GitHub', 'Vercel'],
+  // others: ['OOP', 'Problem Solving'],
 }
 
 export const projects = [
@@ -63,6 +68,25 @@ export const projects = [
     },
   },
   {
+    name: "Isbat's World",
+    desc: "Isbat's World is an interactive 3D portfolio website made with react-three-fiber. ",
+    features: [
+      'Developed an interactive 3D portfolio wevsite with react-three-fiber',
+      'Ensured full responsiveness across devices',
+      'Added light and dark mode for enhacing user experience',
+    ],
+    'tech-stack': [
+      'React',
+      'Tailwind CSS',
+      'react-three-fiber',
+      'react-three-drei',
+    ],
+    links: {
+      website: 'https://isbats-world.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/isbats-world',
+    },
+  },
+  {
     name: 'Warehouse Wizard',
     desc: 'Warehouse Wizard is an inventory management web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to manage inventory by adding, deleting, and editing products. Features include user authentication, intuitive interface, personalized user profiles, and Cloudinary integration for product and user photos.',
     features: [
@@ -83,20 +107,20 @@ export const projects = [
       code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
     },
   },
-  {
-    name: 'Tech Haven',
-    desc: 'Tech Haven is an e-commerce site powered by Payload CMS. It offers user-friendly features, including secure authentication, a streamlined admin panel for product management, secure payments through Stripe, and efficient pagination and search functionality.',
-    features: [
-      'Developed an e-commerce site powered by Payload CMS with a streamlined admin panel',
-      'Ensured secure authentication, and efficient payment processing through Stripe',
-      'Added efficient pagination and search functionality.',
-    ],
-    'tech-stack': ['Payload CMS', 'MongoDB', 'SCSS', 'Stripe'],
-    links: {
-      website: 'https://e-commerce-site-with-payload.payloadcms.app/',
-      code: 'https://github.com/IsbatBInHossain/Tech-Haven',
-    },
-  },
+  // {
+  //   name: 'Tech Haven',
+  //   desc: 'Tech Haven is an e-commerce site powered by Payload CMS. It offers user-friendly features, including secure authentication, a streamlined admin panel for product management, secure payments through Stripe, and efficient pagination and search functionality.',
+  //   features: [
+  //     'Developed an e-commerce site powered by Payload CMS with a streamlined admin panel',
+  //     'Ensured secure authentication, and efficient payment processing through Stripe',
+  //     'Added efficient pagination and search functionality.',
+  //   ],
+  //   'tech-stack': ['Payload CMS', 'MongoDB', 'SCSS', 'Stripe'],
+  //   links: {
+  //     website: 'https://e-commerce-site-with-payload.payloadcms.app/',
+  //     code: 'https://github.com/IsbatBInHossain/Tech-Haven',
+  //   },
+  // },
 ]
 
 export const education = [

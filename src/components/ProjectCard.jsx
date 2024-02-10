@@ -9,12 +9,19 @@ const ProjectCard = ({ project }) => {
         <a
           href={project.links.website}
           className=' font-bold flex items-center'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <FaLink className='mr-1' />
           {' Website'}
         </a>
         <span className=' font-bold mx-1'>|</span>
-        <a href={project.links.code} className=' font-bold flex items-center'>
+        <a
+          href={project.links.code}
+          target='_blank'
+          rel='noopener noreferrer'
+          className=' font-bold flex items-center'
+        >
           <FaCode className='mr-1' />
           {' Code'}
         </a>
