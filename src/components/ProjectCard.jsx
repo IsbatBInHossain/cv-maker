@@ -8,13 +8,20 @@ const ProjectCard = ({ project }) => {
       <div className='flex items-center text-secondary text-[10px]'>
         <a
           href={project.links.website}
+          target='_blank'
+          rel='noopener noreferrer'
           className=' font-bold flex items-center'
         >
           <FaLink className='mr-1' />
           {' Website'}
         </a>
         <span className=' font-bold mx-1'>|</span>
-        <a href={project.links.code} className=' font-bold flex items-center'>
+        <a
+          href={project.links.code}
+          target='_blank'
+          rel='noopener noreferrer'
+          className=' font-bold flex items-center'
+        >
           <FaCode className='mr-1' />
           {' Code'}
         </a>

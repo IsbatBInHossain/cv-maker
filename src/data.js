@@ -9,9 +9,10 @@ export const personalInfo = {
 }
 
 export const jobInfo = {
-  title: 'Full Stack Web Developer',
+  title: 'Front End Developer',
   'career-objective':
-    ' Results-driven Full Stack Web Developer with a passion for creating dynamic and user-centric applications. Seeking opportunities to leverage strong technical skills and creative problem-solving abilities in a challenging environment.',
+    ' Eager to contribute as a Front End Developer at SoftVence Agency, leveraging my proficiency in HTML5, CSS3, and JavaScript to create visually appealing and responsive web applications. Excited about the opportunity to utilize my skills in Tailwind CSS and animation libraries to enhance user experiences and contribute to the growth of the team.',
+  // 'career-objective': "Results-driven Full Stack Web Developer with a passion for creating dynamic and usercentric applications. Seeking opportunities to leverage strong technical skills and creative problem-solving abilities in a challenging environment."
 }
 
 export const skills = {
@@ -28,16 +29,15 @@ export const skills = {
     'Next.js',
     'Tailwind CSS',
     // 'Vue.js',
-    'RestFul API',
     'SCSS',
     'Redux',
     'RestFul API',
-    // 'Express.js',
-    // 'Node.js',
-    // 'MondoDB',
-    // 'MySQL',
+    'Express.js',
+    'Node.js',
+    'MondoDB',
+    'MySQL',
   ],
-  tools: ['Git', 'GitHub', 'Vercel', 'Redux'],
+  tools: ['Git', 'GitHub', 'Vercel', 'Redux', 'Figma'],
   // others: ['OOP', 'Problem Solving', 'RestFul API'],
 }
 
@@ -65,6 +65,25 @@ export const projects = [
     },
   },
   {
+    name: "Isbat's World",
+    desc: "Explore Isbat's World, an immersive 3D portfolio experience.",
+    features: [
+      'Crafted an immersive 3D portfolio with meticulous attention to detail.',
+      'Integrated Light and Dark mode options, ensuring a seamless viewing experience.',
+      'Enhanced user engagement with fluid animations and smooth transitions.',
+    ],
+    'tech-stack': [
+      'React',
+      'react-three-fiber',
+      'react-three-drei',
+      'TailwindCSS',
+    ],
+    links: {
+      website: 'https://isbats-world.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/isbats-world',
+    },
+  },
+  {
     name: 'Warehouse Wizard',
     desc: 'Warehouse Wizard is an inventory management web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to manage inventory by adding, deleting, and editing products. Features include user authentication, intuitive interface, personalized user profiles, and Cloudinary integration for product and user photos.',
     features: [
@@ -85,26 +104,26 @@ export const projects = [
       code: 'https://github.com/IsbatBInHossain/prompt-central',
     },
   },
-  {
-    name: 'Prompt Central',
-    desc: "Prompt Central is an AI prompt sharing platform built with Next.js and Tailwind CSS. This platform allows you to explore and discover a wide range of AI prompts contributed by the community. Whether you're a developer, AI enthusiast, or someone looking for inspiration, Prompt Central has got you covered.",
-    features: [
-      'Facilitated prompt discovery through username or specific tags for an enhanced user experience.',
-      'Encouraged community growth by allowing users to share prompts seamlessly.',
-      'Implemented a user-friendly authentication process using Google OAuth 2.0.',
-    ],
-    'tech-stack': [
-      'React',
-      'Next.js',
-      'MongoDB',
-      'TailwindCSS',
-      'Google Outh 2.0',
-    ],
-    links: {
-      website: 'https://warehouse-wizard.vercel.app/',
-      code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
-    },
-  },
+  // {
+  //   name: 'Prompt Central',
+  //   desc: "Prompt Central is an AI prompt sharing platform built with Next.js and Tailwind CSS. This platform allows you to explore and discover a wide range of AI prompts contributed by the community. Whether you're a developer, AI enthusiast, or someone looking for inspiration, Prompt Central has got you covered.",
+  //   features: [
+  //     'Facilitated prompt discovery through username or specific tags for an enhanced user experience.',
+  //     'Encouraged community growth by allowing users to share prompts seamlessly.',
+  //     'Implemented a user-friendly authentication process using Google OAuth 2.0.',
+  //   ],
+  //   'tech-stack': [
+  //     'React',
+  //     'Next.js',
+  //     'MongoDB',
+  //     'TailwindCSS',
+  //     'Google Outh 2.0',
+  //   ],
+  //   links: {
+  //     website: 'https://warehouse-wizard.vercel.app/',
+  //     code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
+  //   },
+  // },
   {
     name: 'Tech Haven',
     desc: 'Tech Haven is an e-commerce site powered by Payload CMS. It offers user-friendly features, including secure authentication, a streamlined admin panel for product management, secure payments through Stripe, and efficient pagination and search functionality.',
