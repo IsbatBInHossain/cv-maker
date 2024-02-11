@@ -1,4 +1,4 @@
-import { jobDetails, personalInfo } from '../data'
+import { jobInfo, personalInfo } from '../data'
 import { HeaderList } from './HeaderList'
 
 export const CVHeader = () => {
@@ -16,7 +16,7 @@ export const CVHeader = () => {
           {personalInfo.name}
         </h2>
         <p className='font-bold capitalize text-primary text-[17px]'>
-          {jobDetails.position}
+          {jobInfo.title}
         </p>
         <HeaderList />
       </div>

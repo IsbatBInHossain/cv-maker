@@ -1,4 +1,4 @@
-import { jobDetails, projects } from '../data'
+import { jobInfo, projects } from '../data'
 import { Headline } from './Headline'
 import ProjectCard from './ProjectCard'
 
@@ -8,7 +8,7 @@ export const MainBody = () => {
       <Headline title='Career Objectives' />
 
       <p className='italic tracking-tight mt-2 text-[12px]'>
-        {jobDetails['career-objective']}
+        {jobInfo['career-objective']}
       </p>
       <Headline title='Projects' classes=' mt-4 ' />
       {projects.map(project => (

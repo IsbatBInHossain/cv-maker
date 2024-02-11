@@ -9,47 +9,46 @@ import {
 import { personalInfo } from '../data'
 
 export const HeaderList = () => {
+  const { email, github, linkedin, portfolio, phone, location } = personalInfo
   return (
     <ul className='grid grid-cols-3 gap-x-4 grid-rows-2 text-[9px]'>
       <li className='text-ash flex items-center gap-1 pt-3'>
-        <FaEnvelope className='text-secondary' />{' '}
-        <span>{personalInfo.email}</span>
+        <FaEnvelope className='text-secondary' /> <span>{email}</span>
       </li>
       <li className='text-ash flex items-center gap-1 pt-3'>
-        <FaPhone className='text-secondary' /> <span>{personalInfo.phone}</span>
+        <FaPhone className='text-secondary' /> <span>{phone}</span>
       </li>
       <li className='text-ash flex items-center gap-1 pt-3'>
-        <FaLocationDot className='text-secondary' />{' '}
-        <span>{personalInfo.location}</span>
+        <FaLocationDot className='text-secondary' /> <span>{location}</span>
       </li>
       <li className='text-ash flex items-center gap-1'>
         <FaLinkedin className='text-secondary' />{' '}
         <a
-          href={`https://www.linkedin.com/in/${personalInfo.linkedin}`}
+          href={`https://www.linkedin.com/in/${linkedin}`}
           target='_blank'
           rel='noopener noreferrer'
         >
-          {personalInfo.linkedin}
+          {linkedin}
         </a>
       </li>
       <li className='text-ash flex items-center gap-1'>
         <FaGithub className='text-secondary' />{' '}
         <a
-          href={`https://github.com/${personalInfo.github}`}
+          href={`https://github.com/${github}`}
           target='_blank'
           rel='noopener noreferrer'
         >
-          {personalInfo.github}
+          {github}
         </a>
       </li>
       <li className='text-ash flex items-center gap-1'>
         <FaGlobe className='text-secondary' />{' '}
         <a
-          href={personalInfo.portfolio}
+          href={`https://${portfolio}`}
           target='_blank'
           rel='noopener noreferrer'
         >
-          {personalInfo.portfolio}
+          Portfolio
         </a>
       </li>
     </ul>

@@ -1,26 +1,34 @@
 export const personalInfo = {
   name: 'Isbat Bin Hossain',
   email: 'isbatbinhossain@gmail.com',
-  phone: '+8801815-423827',
-  location: 'Uttara, Dhaka',
-  linkedin: 'isbat-bin-hossain-94313b270',
+  phone: '+880-1815423827',
+  location: 'Banasree, Dhaka',
   github: 'IsbatBInHossain',
-  portfolio: 'isbat-bin-hossain.vercel.app/',
+  linkedin: 'isbat-bin-hossain-94313b270/',
+  portfolio: 'isbats-world.vercel.app/',
 }
 
-export const jobDetails = {
-  position: 'Frontend Web Developer',
+export const jobInfo = {
+  title: 'Full Stack Web Developer',
   'career-objective':
-    "I am a results-driven Frontend Developer with a passion for creating seamless and visually appealing web experiences. Eager to join Metricalo in a challenging role to leverage my skills and contribute to the company's growth in developing pixel-perfect and responsive websites. Proficient in front-end technologies such as HTML, CSS, SCSS, Tailwind, and JavaScript, I bring a strong foundation in full-stack web development. ",
+    ' Results-driven Full Stack Web Developer with a passion for creating dynamic and user-centric applications. Seeking opportunities to leverage strong technical skills and creative problem-solving abilities in a challenging environment.',
 }
 
 export const skills = {
-  languages: ['JavaScript', 'Python', 'HTML', 'CSS'],
+  languages: [
+    'JavaScript',
+    'TypeScript',
+    'HTML',
+    'CSS',
+    'Python',
+    // 'C++'
+  ],
   technologies: [
     'React',
     'Next.js',
     'Tailwind CSS',
-    'Vus.js',
+    // 'Vue.js',
+    'RestFul API',
     'SCSS',
     'Redux',
     'RestFul API',
@@ -29,7 +37,7 @@ export const skills = {
     // 'MondoDB',
     // 'MySQL',
   ],
-  tools: ['Git', 'GitHub', 'Vercel', 'Figma'],
+  tools: ['Git', 'GitHub', 'Vercel', 'Redux'],
   // others: ['OOP', 'Problem Solving', 'RestFul API'],
 }
 
@@ -131,5 +139,18 @@ export const education = [
     institution: 'Khagrachari Cantonment Public School and College',
     duration: '2011',
     location: 'Khagrachari',
+  },
+]
+
+export const courses = [
+  {
+    title: 'The Complete 2023 Web Development Bootcamp by Dr. Angela Yu',
+    provider: 'Udemy',
+    link: 'https://www.udemy.com/certificate/UC-8ebeba26-bf0d-42f9-9663-12195d7fe629/',
+  },
+  {
+    title: 'Software Engineer Certificate',
+    provider: 'HacakerRank',
+    link: 'https://www.hackerrank.com/certificates/96b4d9b9e147',
   },
 ]
