@@ -9,35 +9,55 @@ export const personalInfo = {
 }
 
 export const jobInfo = {
-  title: 'Front End Developer',
+  title: 'Junior Electrical Engineer',
   'career-objective':
-    ' Eager to contribute as a Front End Developer at SoftVence Agency, leveraging my proficiency in HTML5, CSS3, and JavaScript to create visually appealing and responsive web applications. Excited about the opportunity to utilize my skills in Tailwind CSS and animation libraries to enhance user experiences and contribute to the growth of the team.',
+    "I am an Electrical & Electronic Engineering graduate with a strong interest in Japanese language and culture. I bring solid technical skills and a conversational level of Japanese proficiency to the table. I'm excited about the opportunity at SUNTECH to fuse my engineering knowledge with my passion for Japanese language while contributing to innovative projects. ",
   // 'career-objective': "Results-driven Full Stack Web Developer with a passion for creating dynamic and usercentric applications. Seeking opportunities to leverage strong technical skills and creative problem-solving abilities in a challenging environment."
 }
 
 export const skills = {
-  languages: [
-    'JavaScript',
-    'TypeScript',
-    'HTML',
-    'CSS',
+  ['Programming Languages']: [
+    'C',
+    'C++',
     'Python',
+    'Java',
+
+    // 'TypeScript',
+    // 'HTML',
+    // 'CSS',
     // 'C++'
   ],
   technologies: [
-    'React',
-    'Next.js',
-    'Tailwind CSS',
-    // 'Vue.js',
-    'SCSS',
-    'Redux',
-    'RestFul API',
-    'Express.js',
-    'Node.js',
-    'MondoDB',
-    'MySQL',
+    'MATLAB',
+    'Proteus',
+    'Simulink',
+    // 'l',
   ],
-  tools: ['Git', 'GitHub', 'Vercel', 'Redux', 'Figma'],
+  // technologies: [
+  //   'Next.js',
+  //   'Node.js',
+  //   'React',
+  //   'Redux',
+  //   'Tailwind CSS',
+  //   // 'Vue.js',
+  //   'SCSS',
+  //   'Shadcn UI',
+  //   'RestFul API',
+  //   'Express.js',
+  //   'MondoDB',
+  //   'MySQL',
+  // ],
+  // fontend: [
+  //   'React',
+  //   'Tailwind CSS',
+  //   'SCSS',
+  //   // 'Vue.js',
+  //   'Redux',
+  //   'Shadcn UI',
+  // ],
+  // backend: ['Next.js', 'Node.js', 'Express.js', 'RestFul API'],
+  // database: ['MondoDB', 'MySQL'],
+  // tools: ['Git', 'GitHub', 'Vercel', 'Figma'],
   // others: ['OOP', 'Problem Solving', 'RestFul API'],
 }
 
@@ -100,44 +120,44 @@ export const projects = [
       'Cloudinary',
     ],
     links: {
+      website: 'https://warehouse-wizard.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
+    },
+  },
+  {
+    name: 'Prompt Central',
+    desc: "Prompt Central is an AI prompt sharing platform built with Next.js and Tailwind CSS. This platform allows you to explore and discover a wide range of AI prompts contributed by the community. Whether you're a developer, AI enthusiast, or someone looking for inspiration, Prompt Central has got you covered.",
+    features: [
+      'Facilitated prompt discovery through username or specific tags for an enhanced user experience.',
+      'Encouraged community growth by allowing users to share prompts seamlessly.',
+      'Implemented a user-friendly authentication process using Google OAuth 2.0.',
+    ],
+    'tech-stack': [
+      'React',
+      'Next.js',
+      'MongoDB',
+      'TailwindCSS',
+      'Google Outh 2.0',
+    ],
+    links: {
       website: 'https://prompt-central.vercel.app/',
       code: 'https://github.com/IsbatBInHossain/prompt-central',
     },
   },
   // {
-  //   name: 'Prompt Central',
-  //   desc: "Prompt Central is an AI prompt sharing platform built with Next.js and Tailwind CSS. This platform allows you to explore and discover a wide range of AI prompts contributed by the community. Whether you're a developer, AI enthusiast, or someone looking for inspiration, Prompt Central has got you covered.",
+  //   name: 'Tech Haven',
+  //   desc: 'Tech Haven is an e-commerce site powered by Payload CMS. It offers user-friendly features, including secure authentication, a streamlined admin panel for product management, secure payments through Stripe, and efficient pagination and search functionality.',
   //   features: [
-  //     'Facilitated prompt discovery through username or specific tags for an enhanced user experience.',
-  //     'Encouraged community growth by allowing users to share prompts seamlessly.',
-  //     'Implemented a user-friendly authentication process using Google OAuth 2.0.',
+  //     'Developed an e-commerce site powered by Payload CMS with a streamlined admin panel',
+  //     'Ensured secure authentication, and efficient payment processing through Stripe',
+  //     'Added efficient pagination and search functionality.',
   //   ],
-  //   'tech-stack': [
-  //     'React',
-  //     'Next.js',
-  //     'MongoDB',
-  //     'TailwindCSS',
-  //     'Google Outh 2.0',
-  //   ],
+  //   'tech-stack': ['Payload CMS', 'Next.js', 'MongoDB', 'SCSS', 'Stripe'],
   //   links: {
-  //     website: 'https://warehouse-wizard.vercel.app/',
-  //     code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
+  //     website: 'https://e-commerce-site-with-payload.payloadcms.app/',
+  //     code: 'https://github.com/IsbatBInHossain/Tech-Haven',
   //   },
   // },
-  {
-    name: 'Tech Haven',
-    desc: 'Tech Haven is an e-commerce site powered by Payload CMS. It offers user-friendly features, including secure authentication, a streamlined admin panel for product management, secure payments through Stripe, and efficient pagination and search functionality.',
-    features: [
-      'Developed an e-commerce site powered by Payload CMS with a streamlined admin panel',
-      'Ensured secure authentication, and efficient payment processing through Stripe',
-      'Added efficient pagination and search functionality.',
-    ],
-    'tech-stack': ['Payload CMS', 'Next.js', 'MongoDB', 'SCSS', 'Stripe'],
-    links: {
-      website: 'https://e-commerce-site-with-payload.payloadcms.app/',
-      code: 'https://github.com/IsbatBInHossain/Tech-Haven',
-    },
-  },
 ]
 
 export const education = [
