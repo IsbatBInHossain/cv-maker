@@ -67,10 +67,10 @@ export const ElectricalBody = () => {
         </li>
         <li>
           <span className='font-semibold'>Japanese:</span> Conversational
-          (Self-taught, equivalent to JLPT N3 level)
+          {/* (Self-taught, equivalent to JLPT N3 level) */}
         </li>
       </ul>
-      <div className=' flex flex-col'>
+      {/* <div className=' flex flex-col'>
         <h4 className=' font-semibold text-[14px] text-secondary my-2'>
           Related Experiences
         </h4>
@@ -85,7 +85,7 @@ export const ElectricalBody = () => {
             understanding.
           </li>
         </ul>
-      </div>
+      </div> */}
 
       {/* <Headline title='Field of expertise' classes=' mt-4 ' />
 

@@ -9,30 +9,31 @@ export const personalInfo = {
 }
 
 export const jobInfo = {
-  title: 'Junior Electrical Engineer',
+  title: 'Full Stack Web Developer',
+  // 'career-objective':
+  //   'Seeking an Intern-Front End Developer role at WeTech Digital to apply and enhance my skills in web development. Eager to collaborate with a talented team in a vibrant environment, I aim to gain hands-on experience in designing, implementing, testing, and deploying high-performance user interfaces while staying abreast of industry trends and advancements. With a keen eye for detail and a passion for continuous learning, I am committed to delivering impactful solutions that drive business success and personal growth.',
   'career-objective':
-    "I am an Electrical & Electronic Engineering graduate with a strong interest in Japanese language and culture. I bring solid technical skills and a conversational level of Japanese proficiency to the table. I'm excited about the opportunity at SUNTECH to fuse my engineering knowledge with my passion for Japanese language while contributing to innovative projects. ",
-  // 'career-objective': "Results-driven Full Stack Web Developer with a passion for creating dynamic and usercentric applications. Seeking opportunities to leverage strong technical skills and creative problem-solving abilities in a challenging environment."
+    'As a skilled and passionate software engineer with expertise in both frontend and backend technologies, I am seeking a challenging role where I can leverage my technical proficiency and problem-solving abilities to contribute to innovative projects. With a strong foundation in languages such as JavaScript, TypeScript, Python, and Java, coupled with hands-on experience in frameworks like React, Next.js, Node.js, and Express.js, I am eager to take on new challenges and drive impactful solutions.',
 }
 
 export const skills = {
-  ['Programming Languages']: [
-    'C',
-    'C++',
+  languages: [
+    'JavaScript',
+    'TypeScript',
+    'HTML',
+    'CSS',
     'Python',
+    // 'C',
+    // 'C++',
     'Java',
-
-    // 'TypeScript',
-    // 'HTML',
-    // 'CSS',
-    // 'C++'
+    // 'C++',
   ],
-  technologies: [
-    'MATLAB',
-    'Proteus',
-    'Simulink',
-    // 'l',
-  ],
+  // technologies: [
+  //   'Proteus',
+  //   'Simulink',
+  //   // 'l'
+  //   'MATLAB',
+  // ],
   // technologies: [
   //   'Next.js',
   //   'Node.js',
@@ -47,18 +48,29 @@ export const skills = {
   //   'MondoDB',
   //   'MySQL',
   // ],
-  // fontend: [
-  //   'React',
-  //   'Tailwind CSS',
-  //   'SCSS',
-  //   // 'Vue.js',
-  //   'Redux',
-  //   'Shadcn UI',
+  fontend: [
+    'React',
+    'Next.js',
+    'Tailwind CSS',
+    'SCSS',
+    // 'Vue.js',
+    'Redux',
+    'Shadcn UI',
+  ],
+  backend: ['Node.js', 'Express.js', 'RestFul API'],
+  database: ['MondoDB', 'MySQL'],
+  tools: [
+    'Git',
+    'GitHub',
+    // 'Vercel',
+    //  'Figma'
+  ],
+  // others: [
+  //   'OOP',
+  //   'Problem Solving',
+  //   'MVC',
+  //   // 1
   // ],
-  // backend: ['Next.js', 'Node.js', 'Express.js', 'RestFul API'],
-  // database: ['MondoDB', 'MySQL'],
-  // tools: ['Git', 'GitHub', 'Vercel', 'Figma'],
-  // others: ['OOP', 'Problem Solving', 'RestFul API'],
 }
 
 export const projects = [
@@ -85,6 +97,27 @@ export const projects = [
     },
   },
   {
+    name: 'Warehouse Wizard',
+    desc: 'Warehouse Wizard is an inventory management web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to manage inventory by adding, deleting, and editing products. Features include user authentication, intuitive interface, personalized user profiles, and Cloudinary integration for product and user photos.',
+    features: [
+      'Built an inventory management web application utilizing the MERN stack (MongoDB, Express.js, React.js, Node.js).',
+      'Implemented user authentication, intuitive interface, and Cloudinary integration for managing product and user photos.',
+    ],
+    'tech-stack': [
+      'React',
+      'Node.Js',
+      'Redux',
+      'MongoDB',
+      'Express.js',
+      'SCSS',
+      'Cloudinary',
+    ],
+    links: {
+      website: 'https://warehouse-wizard.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
+    },
+  },
+  {
     name: "Isbat's World",
     desc: "Explore Isbat's World, an immersive 3D portfolio experience.",
     features: [
@@ -101,27 +134,6 @@ export const projects = [
     links: {
       website: 'https://isbats-world.vercel.app/',
       code: 'https://github.com/IsbatBInHossain/isbats-world',
-    },
-  },
-  {
-    name: 'Warehouse Wizard',
-    desc: 'Warehouse Wizard is an inventory management web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to manage inventory by adding, deleting, and editing products. Features include user authentication, intuitive interface, personalized user profiles, and Cloudinary integration for product and user photos.',
-    features: [
-      'Built an inventory management web application utilizing the MERN stack (MongoDB, Express.js, React.js, Node.js).',
-      'Implemented user authentication, intuitive interface, and Cloudinary integration for managing product and user photos.',
-    ],
-    'tech-stack': [
-      'React',
-      'Redux',
-      'MongoDB',
-      'Express.js',
-      'Node.Js',
-      'SCSS',
-      'Cloudinary',
-    ],
-    links: {
-      website: 'https://warehouse-wizard.vercel.app/',
-      code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
     },
   },
   {

@@ -31,7 +31,7 @@ export const HeaderList = () => {
           {linkedin}
         </a>
       </li>
-      {/* <li className='text-ash flex items-center gap-1'>
+      <li className='text-ash flex items-center gap-1'>
         <FaGithub className='text-secondary' />{' '}
         <a
           href={`https://github.com/${github}`}
@@ -40,8 +40,8 @@ export const HeaderList = () => {
         >
           {github}
         </a>
-      </li> */}
-      {/* <li className='text-ash flex items-center gap-1'>
+      </li>
+      <li className='text-ash flex items-center gap-1'>
         <FaGlobe className='text-secondary' />{' '}
         <a
           href={`https://${portfolio}`}
@@ -50,7 +50,7 @@ export const HeaderList = () => {
         >
           Portfolio Website
         </a>
-      </li> */}
+      </li>
     </ul>
   )
 }
