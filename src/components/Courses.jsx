@@ -11,6 +11,8 @@ export const Courses = () => {
           <h3 className=' font-semibold text-xs'>Udemy</h3>
           <a
             href='https://www.udemy.com/certificate/UC-8ebeba26-bf0d-42f9-9663-12195d7fe629/'
+            target='_blank'
+            rel='noopener noreferrer'
             className=' text-ash text-[10px]'
           >
             The Complete 2023 Web Development Bootcamp by Dr. Angela Yu
@@ -23,6 +25,8 @@ export const Courses = () => {
           <h3 className=' font-semibold text-xs'>HackerRank</h3>
           <a
             href='https://www.hackerrank.com/certificates/96b4d9b9e147'
+            target='_blank'
+            rel='noopener noreferrer'
             className=' text-ash text-[10px]'
           >
             Software Engineer Certificate

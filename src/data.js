@@ -29,11 +29,7 @@ export const skills = {
 
   technologies: [
     'React',
-    'Node.js',
     'Next.js',
-    'Express.js',
-    'MondoDB',
-    'MySQL',
     'Tailwind CSS',
     // 'Vue.js',
     'RestFul API',

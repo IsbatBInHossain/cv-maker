@@ -8,6 +8,8 @@ const ProjectCard = ({ project }) => {
       <div className='flex items-center text-secondary text-[10px]'>
         <a
           href={project.links.website}
+          target='_blank'
+          rel='noopener noreferrer'
           className=' font-bold flex items-center'
           target='_blank'
           rel='noopener noreferrer'
@@ -26,7 +28,7 @@ const ProjectCard = ({ project }) => {
           {' Code'}
         </a>
       </div>
-      <ul className=' text-sm text-ash flex flex-col gap-2 mt-3'>
+      <ul className=' text-[10px] text-ash flex flex-col gap-2 mt-3'>
         <li>
           <span className='font-bold'>Features:</span>{' '}
           <ul className='list-disc ml-8'>
