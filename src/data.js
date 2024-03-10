@@ -9,64 +9,86 @@ export const personalInfo = {
 }
 
 export const jobInfo = {
-  title: 'Software Engineer',
+  title: 'Software Developer Intern',
   'career-objective':
-    'Eager to leverage my expertise in Next.js development and passion for crafting innovative web solutions as a Junior Software Engineer at BemGroup. With over a year of professional experience in React.js/Next.js, along with proficiency in JavaScript, HTML5, and CSS3, I am prepared to contribute to the success of dynamic projects while continuously expanding my skill set. Excited to join a collaborative team environment and make meaningful contributions to impactful projects in the realm of SaaS.',
+    'Enthusiastic and motivated Software Developer Intern with a keen interest in leveraging my knowledge and practical skills to contribute effectively to the dynamic environment at appinion. Eager to gain hands-on experience and deepen understanding in software development while actively participating in meaningful projects. Committed to continuous learning and growth, I am excited to collaborate with the talented team at appinion to drive innovation and deliver impactful solutions.',
 }
 
 export const skills = {
   languages: [
     'JavaScript',
+    'Python',
     'TypeScript',
     'HTML',
     'CSS',
-    'Python',
     // 'C++'
   ],
-  frontend: ['React', 'Tailwind CSS', 'SCSS', 'Redux'],
-  backend: ['Node.js', 'Next.js', 'Express.js', 'RestFul API'],
-  database: ['MondoDB', 'MySQL'],
+  // frontend: ['React', 'Tailwind CSS', 'SCSS', 'Redux'],
+  // backend: ['Node.js', 'Next.js', 'Express.js', 'RestFul API'],
+  // database: ['MondoDB', 'MySQL'],
 
-  // technologies: [
-  //   'React',
-  //   'Node.js',
-  //   'Next.js',
-  //   'Express.js',
-  //   'MondoDB',
-  //   'MySQL',
-  //   'Tailwind CSS',
-  //   // 'Vue.js',
-  //   'RestFul API',
-  //   // 'SCSS',
-  //   'Redux',
-  // ],
+  technologies: [
+    'React',
+    'Node.js',
+    'Next.js',
+    'Express.js',
+    'MondoDB',
+    'MySQL',
+    'Tailwind CSS',
+    // 'Vue.js',
+    'RestFul API',
+    // 'SCSS',
+    'Redux',
+  ],
   tools: ['Git', 'GitHub', 'Vercel'],
-  // others: ['OOP', 'Problem Solving'],
+  others: ['OOP', 'Problem Solving'],
 }
 
 export const projects = [
   {
-    name: 'Threads',
-    desc: 'Thread is a dynamic web application providing a Twitter-like experience. It utilizes real-time updates, Clerk authentication, and efficient data handling for a smooth and interactive user experience. Features include creating and sharing threads, user authentication, full responsiveness, personalized user profiles, and community creation/joining.',
+    name: 'Draftcraft',
+    desc: 'Draftcraft is a collaborative online design tool built with Next.js and liveblocks',
     features: [
-      'Developed a dynamic web application resembling a Twitter-like experience using Next.js 13, MongoDB, and Tailwind CSS.',
-      'Implemented real-time updates, Clerk authentication, and efficient data handling for a seamless user experience.',
-      'Features include thread creation, user authentication, full responsiveness, and community creation/joining.',
+      'Built a collaborative online design tool with Next.js and liveblocks.',
+      'Enabled users to collaborate simultaneously by showing individual cursors, real-time chat, and reactions for interactive communication.',
+      'Provided tools for users to generate a variety of shapes on the canvas, allowing for diverse design elements',
+      'Allowed users to utilize keyboard shortcuts for various actions, including copying, pasting, deleting, and triggering shortcuts for features like opening cursor chat, reactions, and more, enhancing efficiency and accessibility.',
     ],
     'tech-stack': [
       'Next.js',
-      'MongoDB',
+      'TypeScript',
+      'liveblocks',
       'TailwindCSS',
-      'Clerk',
-      'Uploadthing',
-      'Shadcn',
-      'Zod',
+      'shadcn ui',
+      'fabric.js',
     ],
     links: {
-      website: 'https://threads-clone-rho.vercel.app/',
-      code: 'https://github.com/IsbatBInHossain/threads-clone',
+      website: 'https://draftcraft.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/draftcraft',
     },
   },
+  // {
+  //   name: 'Threads',
+  //   desc: 'Thread is a dynamic web application providing a Twitter-like experience. It utilizes real-time updates, Clerk authentication, and efficient data handling for a smooth and interactive user experience. Features include creating and sharing threads, user authentication, full responsiveness, personalized user profiles, and community creation/joining.',
+  //   features: [
+  //     'Developed a dynamic web application resembling a Twitter-like experience using Next.js 13, MongoDB, and Tailwind CSS.',
+  //     'Implemented real-time updates, Clerk authentication, and efficient data handling for a seamless user experience.',
+  //     'Features include thread creation, user authentication, full responsiveness, and community creation/joining.',
+  //   ],
+  //   'tech-stack': [
+  //     'Next.js',
+  //     'MongoDB',
+  //     'TailwindCSS',
+  //     'Clerk',
+  //     'Uploadthing',
+  //     'Shadcn',
+  //     'Zod',
+  //   ],
+  //   links: {
+  //     website: 'https://threads-clone-rho.vercel.app/',
+  //     code: 'https://github.com/IsbatBInHossain/threads-clone',
+  //   },
+  // },
   {
     name: "Isbat's World",
     desc: "Isbat's World is an interactive 3D portfolio website made with react-three-fiber. ",
@@ -107,6 +129,7 @@ export const projects = [
       code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
     },
   },
+
   // {
   //   name: 'Tech Haven',
   //   desc: 'Tech Haven is an e-commerce site powered by Payload CMS. It offers user-friendly features, including secure authentication, a streamlined admin panel for product management, secure payments through Stripe, and efficient pagination and search functionality.',
