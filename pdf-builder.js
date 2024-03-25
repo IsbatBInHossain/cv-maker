@@ -8,7 +8,7 @@ import puppeteer from 'puppeteer'
   })
 
   await page.pdf({
-    path: 'output/resume.pdf',
+    path: 'output/Isbat Bin Hossain Resume.pdf',
     format: 'A4',
     printBackground: true,
   })

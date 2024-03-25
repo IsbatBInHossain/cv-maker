@@ -1,4 +1,5 @@
 import { jobInfo, projects } from '../data'
+// import LanguageSkill from './Electrical/LanguageSkill'
 import { Headline } from './Headline'
 import ProjectCard from './ProjectCard'
 
@@ -18,6 +19,7 @@ export const MainBody = () => {
       {projects.map(project => (
         <ProjectCard project={project} key={project.name} />
       ))}
+      {/* <LanguageSkill /> */}
     </div>
   )
 }

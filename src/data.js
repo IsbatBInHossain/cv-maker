@@ -9,9 +9,9 @@ export const personalInfo = {
 }
 
 export const jobInfo = {
-  title: 'Frontend Web Developer',
+  title: 'Full Stack Web Developer',
   'career-objective':
-    'Highly motivated and results-oriented web developer with a strong grasp of the MERN stack (MongoDB, Express.js, React, and Node.js) seeking to leverage React, HTML, Tailwind CSS, and UI/UX principles to create user-centric and visually appealing web applications. Eager to contribute to your dynamic team and collaborate on building something amazing.',
+    'Highly motivated and results-oriented full-stack web developer seeking an opportunity to leverage my technical expertise and passion for innovation in the thriving Japanese tech scene. Eager to contribute to a leading Japanese software company, collaborate with talented engineers, and gain invaluable experience working in a multicultural environment.',
   // 'career-objective':
   //   'As a skilled and passionate software engineer with expertise in both frontend and backend technologies, I am seeking a challenging role where I can leverage my technical proficiency and problem-solving abilities to contribute to innovative projects. With a strong foundation in languages such as JavaScript, TypeScript, Python, and Java, coupled with hands-on experience in frameworks like React, Next.js, Node.js, and Express.js, I am eager to take on new challenges and drive impactful solutions.',
 }
@@ -57,7 +57,7 @@ export const skills = {
     'Redux',
     'Shadcn UI',
   ],
-  backend: ['Node.js', 'Express.js', 'RestFul API'],
+  backend: ['Node.js', 'Express.js', 'RestFul API', 'Django'],
   database: ['MondoDB', 'MySQL'],
   tools: [
     'Git',
@@ -97,26 +97,45 @@ export const projects = [
       code: 'https://github.com/IsbatBInHossain/draftcraft',
     },
   },
+  // {
+  //   name: 'Threads',
+  //   desc: 'Thread is a dynamic web application providing a Twitter-like experience. It utilizes real-time updates, Clerk authentication, and efficient data handling for a smooth and interactive user experience. Features include creating and sharing threads, user authentication, full responsiveness, personalized user profiles, and community creation/joining.',
+  //   features: [
+  //     'Developed a dynamic web application resembling a Twitter-like experience using Next.js 13, MongoDB, and Tailwind CSS.',
+  //     'Implemented real-time updates, Clerk authentication, and efficient data handling for a seamless user experience.',
+  //     'Features include thread creation, user authentication, full responsiveness, and community creation/joining.',
+  //   ],
+  //   'tech-stack': [
+  //     'Next.js',
+  //     'MongoDB',
+  //     'TailwindCSS',
+  //     'Clerk',
+  //     'Uploadthing',
+  //     'shadcn ui',
+  //     'Zod',
+  //   ],
+  //   links: {
+  //     website: 'https://threads-clone-rho.vercel.app/',
+  //     code: 'https://github.com/IsbatBInHossain/threads-clone',
+  //   },
+  // },
   {
-    name: 'Threads',
-    desc: 'Thread is a dynamic web application providing a Twitter-like experience. It utilizes real-time updates, Clerk authentication, and efficient data handling for a smooth and interactive user experience. Features include creating and sharing threads, user authentication, full responsiveness, personalized user profiles, and community creation/joining.',
+    name: "Isbat's World",
+    desc: "Explore Isbat's World, an immersive 3D portfolio experience.",
     features: [
-      'Developed a dynamic web application resembling a Twitter-like experience using Next.js 13, MongoDB, and Tailwind CSS.',
-      'Implemented real-time updates, Clerk authentication, and efficient data handling for a seamless user experience.',
-      'Features include thread creation, user authentication, full responsiveness, and community creation/joining.',
+      'Crafted an immersive 3D portfolio with meticulous attention to detail.',
+      'Integrated Light and Dark mode options, ensuring a seamless viewing experience.',
+      'Enhanced user engagement with fluid animations and smooth transitions.',
     ],
     'tech-stack': [
-      'Next.js',
-      'MongoDB',
+      'React',
+      'react-three-fiber',
+      'react-three-drei',
       'TailwindCSS',
-      'Clerk',
-      'Uploadthing',
-      'shadcn ui',
-      'Zod',
     ],
     links: {
-      website: 'https://threads-clone-rho.vercel.app/',
-      code: 'https://github.com/IsbatBInHossain/threads-clone',
+      website: 'https://isbats-world.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/isbats-world',
     },
   },
   {
@@ -138,25 +157,6 @@ export const projects = [
     links: {
       website: 'https://warehouse-wizard.vercel.app/',
       code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
-    },
-  },
-  {
-    name: "Isbat's World",
-    desc: "Explore Isbat's World, an immersive 3D portfolio experience.",
-    features: [
-      'Crafted an immersive 3D portfolio with meticulous attention to detail.',
-      'Integrated Light and Dark mode options, ensuring a seamless viewing experience.',
-      'Enhanced user engagement with fluid animations and smooth transitions.',
-    ],
-    'tech-stack': [
-      'React',
-      'react-three-fiber',
-      'react-three-drei',
-      'TailwindCSS',
-    ],
-    links: {
-      website: 'https://isbats-world.vercel.app/',
-      code: 'https://github.com/IsbatBInHossain/isbats-world',
     },
   },
   // {
