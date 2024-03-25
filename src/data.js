@@ -9,11 +9,11 @@ export const personalInfo = {
 }
 
 export const jobInfo = {
-  title: 'Full Stack Web Developer',
-  // 'career-objective':
-  //   'Seeking an Intern-Front End Developer role at WeTech Digital to apply and enhance my skills in web development. Eager to collaborate with a talented team in a vibrant environment, I aim to gain hands-on experience in designing, implementing, testing, and deploying high-performance user interfaces while staying abreast of industry trends and advancements. With a keen eye for detail and a passion for continuous learning, I am committed to delivering impactful solutions that drive business success and personal growth.',
+  title: 'Frontend Web Developer',
   'career-objective':
-    'As a skilled and passionate software engineer with expertise in both frontend and backend technologies, I am seeking a challenging role where I can leverage my technical proficiency and problem-solving abilities to contribute to innovative projects. With a strong foundation in languages such as JavaScript, TypeScript, Python, and Java, coupled with hands-on experience in frameworks like React, Next.js, Node.js, and Express.js, I am eager to take on new challenges and drive impactful solutions.',
+    'Highly motivated and results-oriented web developer with a strong grasp of the MERN stack (MongoDB, Express.js, React, and Node.js) seeking to leverage React, HTML, Tailwind CSS, and UI/UX principles to create user-centric and visually appealing web applications. Eager to contribute to your dynamic team and collaborate on building something amazing.',
+  // 'career-objective':
+  //   'As a skilled and passionate software engineer with expertise in both frontend and backend technologies, I am seeking a challenging role where I can leverage my technical proficiency and problem-solving abilities to contribute to innovative projects. With a strong foundation in languages such as JavaScript, TypeScript, Python, and Java, coupled with hands-on experience in frameworks like React, Next.js, Node.js, and Express.js, I am eager to take on new challenges and drive impactful solutions.',
 }
 
 export const skills = {
@@ -25,7 +25,7 @@ export const skills = {
     'Python',
     // 'C',
     // 'C++',
-    'Java',
+    // 'Java',
     // 'C++',
   ],
   // technologies: [
@@ -63,7 +63,7 @@ export const skills = {
     'Git',
     'GitHub',
     // 'Vercel',
-    //  'Figma'
+    'Figma',
   ],
   // others: [
   //   'OOP',
@@ -74,6 +74,29 @@ export const skills = {
 }
 
 export const projects = [
+  {
+    name: 'Draftcraft',
+    desc: 'Draftcraft is a collaborative online design tool built with Next.js and liveblocks',
+    features: [
+      'Built a collaborative online design tool with Next.js and liveblocks.',
+      'Enabled users to collaborate simultaneously by showing individual cursors, real-time chat, and reactions for interactive communication.',
+      'Provided tools for users to generate a variety of shapes on the canvas, allowing for diverse design elements',
+      'Allowed users to utilize keyboard shortcuts for various actions, including copying, pasting, deleting, and triggering shortcuts for features like opening cursor chat, reactions, and more, enhancing efficiency and accessibility.',
+    ],
+    'tech-stack': [
+      'Next.js',
+      'TypeScript',
+      'liveblocks',
+      'TailwindCSS',
+      'Zod',
+      'shadcn ui',
+      'fabric.js',
+    ],
+    links: {
+      website: 'https://draftcraft.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/draftcraft',
+    },
+  },
   {
     name: 'Threads',
     desc: 'Thread is a dynamic web application providing a Twitter-like experience. It utilizes real-time updates, Clerk authentication, and efficient data handling for a smooth and interactive user experience. Features include creating and sharing threads, user authentication, full responsiveness, personalized user profiles, and community creation/joining.',
@@ -88,7 +111,7 @@ export const projects = [
       'TailwindCSS',
       'Clerk',
       'Uploadthing',
-      'Shadcn',
+      'shadcn ui',
       'Zod',
     ],
     links: {
@@ -136,26 +159,26 @@ export const projects = [
       code: 'https://github.com/IsbatBInHossain/isbats-world',
     },
   },
-  {
-    name: 'Prompt Central',
-    desc: "Prompt Central is an AI prompt sharing platform built with Next.js and Tailwind CSS. This platform allows you to explore and discover a wide range of AI prompts contributed by the community. Whether you're a developer, AI enthusiast, or someone looking for inspiration, Prompt Central has got you covered.",
-    features: [
-      'Facilitated prompt discovery through username or specific tags for an enhanced user experience.',
-      'Encouraged community growth by allowing users to share prompts seamlessly.',
-      'Implemented a user-friendly authentication process using Google OAuth 2.0.',
-    ],
-    'tech-stack': [
-      'React',
-      'Next.js',
-      'MongoDB',
-      'TailwindCSS',
-      'Google Outh 2.0',
-    ],
-    links: {
-      website: 'https://prompt-central.vercel.app/',
-      code: 'https://github.com/IsbatBInHossain/prompt-central',
-    },
-  },
+  // {
+  //   name: 'Prompt Central',
+  //   desc: "Prompt Central is an AI prompt sharing platform built with Next.js and Tailwind CSS. This platform allows you to explore and discover a wide range of AI prompts contributed by the community. Whether you're a developer, AI enthusiast, or someone looking for inspiration, Prompt Central has got you covered.",
+  //   features: [
+  //     'Facilitated prompt discovery through username or specific tags for an enhanced user experience.',
+  //     'Encouraged community growth by allowing users to share prompts seamlessly.',
+  //     'Implemented a user-friendly authentication process using Google OAuth 2.0.',
+  //   ],
+  //   'tech-stack': [
+  //     'React',
+  //     'Next.js',
+  //     'MongoDB',
+  //     'TailwindCSS',
+  //     'Google Outh 2.0',
+  //   ],
+  //   links: {
+  //     website: 'https://prompt-central.vercel.app/',
+  //     code: 'https://github.com/IsbatBInHossain/prompt-central',
+  //   },
+  // },
   // {
   //   name: 'Tech Haven',
   //   desc: 'Tech Haven is an e-commerce site powered by Payload CMS. It offers user-friendly features, including secure authentication, a streamlined admin panel for product management, secure payments through Stripe, and efficient pagination and search functionality.',
