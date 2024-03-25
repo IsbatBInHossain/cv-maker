@@ -11,6 +11,8 @@ const ProjectCard = ({ project }) => {
           target='_blank'
           rel='noopener noreferrer'
           className=' font-bold flex items-center'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <FaLink className='mr-1' />
           {' Website'}

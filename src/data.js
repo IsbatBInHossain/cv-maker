@@ -9,93 +9,82 @@ export const personalInfo = {
 }
 
 export const jobInfo = {
-  title: 'Full Stack Web Developer',
-  // 'career-objective':
-  //   'Seeking an Intern-Front End Developer role at WeTech Digital to apply and enhance my skills in web development. Eager to collaborate with a talented team in a vibrant environment, I aim to gain hands-on experience in designing, implementing, testing, and deploying high-performance user interfaces while staying abreast of industry trends and advancements. With a keen eye for detail and a passion for continuous learning, I am committed to delivering impactful solutions that drive business success and personal growth.',
+  title: 'Software Developer Intern',
   'career-objective':
-    'As a skilled and passionate software engineer with expertise in both frontend and backend technologies, I am seeking a challenging role where I can leverage my technical proficiency and problem-solving abilities to contribute to innovative projects. With a strong foundation in languages such as JavaScript, TypeScript, Python, and Java, coupled with hands-on experience in frameworks like React, Next.js, Node.js, and Express.js, I am eager to take on new challenges and drive impactful solutions.',
+    'Enthusiastic and motivated Software Developer Intern with a keen interest in leveraging my knowledge and practical skills to contribute effectively to the dynamic environment at appinion. Eager to gain hands-on experience and deepen understanding in software development while actively participating in meaningful projects. Committed to continuous learning and growth, I am excited to collaborate with the talented team at appinion to drive innovation and deliver impactful solutions.',
 }
 
 export const skills = {
   languages: [
     'JavaScript',
+    'Python',
     'TypeScript',
     'HTML',
     'CSS',
-    'Python',
-    // 'C',
-    // 'C++',
-    'Java',
-    // 'C++',
+    // 'C++'
   ],
-  // technologies: [
-  //   'Proteus',
-  //   'Simulink',
-  //   // 'l'
-  //   'MATLAB',
-  // ],
-  // technologies: [
-  //   'Next.js',
-  //   'Node.js',
-  //   'React',
-  //   'Redux',
-  //   'Tailwind CSS',
-  //   // 'Vue.js',
-  //   'SCSS',
-  //   'Shadcn UI',
-  //   'RestFul API',
-  //   'Express.js',
-  //   'MondoDB',
-  //   'MySQL',
-  // ],
-  fontend: [
+  // frontend: ['React', 'Tailwind CSS', 'SCSS', 'Redux'],
+  // backend: ['Node.js', 'Next.js', 'Express.js', 'RestFul API'],
+  // database: ['MondoDB', 'MySQL'],
+
+  technologies: [
     'React',
     'Next.js',
     'Tailwind CSS',
-    'SCSS',
     // 'Vue.js',
+    'RestFul API',
+    // 'SCSS',
     'Redux',
-    'Shadcn UI',
   ],
-  backend: ['Node.js', 'Express.js', 'RestFul API'],
-  database: ['MondoDB', 'MySQL'],
-  tools: [
-    'Git',
-    'GitHub',
-    // 'Vercel',
-    //  'Figma'
-  ],
-  // others: [
-  //   'OOP',
-  //   'Problem Solving',
-  //   'MVC',
-  //   // 1
-  // ],
+  tools: ['Git', 'GitHub', 'Vercel'],
+  others: ['OOP', 'Problem Solving'],
 }
 
 export const projects = [
   {
-    name: 'Threads',
-    desc: 'Thread is a dynamic web application providing a Twitter-like experience. It utilizes real-time updates, Clerk authentication, and efficient data handling for a smooth and interactive user experience. Features include creating and sharing threads, user authentication, full responsiveness, personalized user profiles, and community creation/joining.',
+    name: 'Draftcraft',
+    desc: 'Draftcraft is a collaborative online design tool built with Next.js and liveblocks',
     features: [
-      'Developed a dynamic web application resembling a Twitter-like experience using Next.js 13, MongoDB, and Tailwind CSS.',
-      'Implemented real-time updates, Clerk authentication, and efficient data handling for a seamless user experience.',
-      'Features include thread creation, user authentication, full responsiveness, and community creation/joining.',
+      'Built a collaborative online design tool with Next.js and liveblocks.',
+      'Enabled users to collaborate simultaneously by showing individual cursors, real-time chat, and reactions for interactive communication.',
+      'Provided tools for users to generate a variety of shapes on the canvas, allowing for diverse design elements',
+      'Allowed users to utilize keyboard shortcuts for various actions, including copying, pasting, deleting, and triggering shortcuts for features like opening cursor chat, reactions, and more, enhancing efficiency and accessibility.',
     ],
     'tech-stack': [
       'Next.js',
-      'MongoDB',
+      'TypeScript',
+      'liveblocks',
       'TailwindCSS',
-      'Clerk',
-      'Uploadthing',
-      'Shadcn',
-      'Zod',
+      'shadcn ui',
+      'fabric.js',
     ],
     links: {
-      website: 'https://threads-clone-rho.vercel.app/',
-      code: 'https://github.com/IsbatBInHossain/threads-clone',
+      website: 'https://draftcraft.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/draftcraft',
     },
   },
+  // {
+  //   name: 'Threads',
+  //   desc: 'Thread is a dynamic web application providing a Twitter-like experience. It utilizes real-time updates, Clerk authentication, and efficient data handling for a smooth and interactive user experience. Features include creating and sharing threads, user authentication, full responsiveness, personalized user profiles, and community creation/joining.',
+  //   features: [
+  //     'Developed a dynamic web application resembling a Twitter-like experience using Next.js 13, MongoDB, and Tailwind CSS.',
+  //     'Implemented real-time updates, Clerk authentication, and efficient data handling for a seamless user experience.',
+  //     'Features include thread creation, user authentication, full responsiveness, and community creation/joining.',
+  //   ],
+  //   'tech-stack': [
+  //     'Next.js',
+  //     'MongoDB',
+  //     'TailwindCSS',
+  //     'Clerk',
+  //     'Uploadthing',
+  //     'Shadcn',
+  //     'Zod',
+  //   ],
+  //   links: {
+  //     website: 'https://threads-clone-rho.vercel.app/',
+  //     code: 'https://github.com/IsbatBInHossain/threads-clone',
+  //   },
+  // },
   {
     name: 'Warehouse Wizard',
     desc: 'Warehouse Wizard is an inventory management web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to manage inventory by adding, deleting, and editing products. Features include user authentication, intuitive interface, personalized user profiles, and Cloudinary integration for product and user photos.',
@@ -119,17 +108,17 @@ export const projects = [
   },
   {
     name: "Isbat's World",
-    desc: "Explore Isbat's World, an immersive 3D portfolio experience.",
+    desc: "Isbat's World is an interactive 3D portfolio website made with react-three-fiber. ",
     features: [
-      'Crafted an immersive 3D portfolio with meticulous attention to detail.',
-      'Integrated Light and Dark mode options, ensuring a seamless viewing experience.',
-      'Enhanced user engagement with fluid animations and smooth transitions.',
+      'Developed an interactive 3D portfolio wevsite with react-three-fiber',
+      'Ensured full responsiveness across devices',
+      'Added light and dark mode for enhacing user experience',
     ],
     'tech-stack': [
       'React',
+      'Tailwind CSS',
       'react-three-fiber',
       'react-three-drei',
-      'TailwindCSS',
     ],
     links: {
       website: 'https://isbats-world.vercel.app/',
@@ -152,10 +141,11 @@ export const projects = [
       'Google Outh 2.0',
     ],
     links: {
-      website: 'https://prompt-central.vercel.app/',
-      code: 'https://github.com/IsbatBInHossain/prompt-central',
+      website: 'https://warehouse-wizard.vercel.app/',
+      code: 'https://github.com/IsbatBInHossain/Warehouse-Wizard',
     },
   },
+
   // {
   //   name: 'Tech Haven',
   //   desc: 'Tech Haven is an e-commerce site powered by Payload CMS. It offers user-friendly features, including secure authentication, a streamlined admin panel for product management, secure payments through Stripe, and efficient pagination and search functionality.',
@@ -164,7 +154,7 @@ export const projects = [
   //     'Ensured secure authentication, and efficient payment processing through Stripe',
   //     'Added efficient pagination and search functionality.',
   //   ],
-  //   'tech-stack': ['Payload CMS', 'Next.js', 'MongoDB', 'SCSS', 'Stripe'],
+  //   'tech-stack': ['Payload CMS', 'MongoDB', 'SCSS', 'Stripe'],
   //   links: {
   //     website: 'https://e-commerce-site-with-payload.payloadcms.app/',
   //     code: 'https://github.com/IsbatBInHossain/Tech-Haven',

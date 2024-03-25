@@ -1,5 +1,6 @@
-import { Courses } from './Courses'
+// import { Courses } from './Courses'
 import { Education } from './Education'
+import ProblemSolving from './ProblemSolving'
 import { Technical } from './Technical'
 
 export const Sidebar = () => {
@@ -7,7 +8,8 @@ export const Sidebar = () => {
     <div className='flex flex-col'>
       <Technical />
       <Education />
-      <Courses />
+      {/* <Courses /> */}
+      <ProblemSolving />
     </div>
   )
 }
